@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Bellota:400,700&display=swap");
+
+.TodoTemplate {
+  width: 400px;
+  padding: 30px 50px;
+  margin: 200px auto 0;
+
+  .app_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+
+    .date_area {
+      display: flex;
+      font-family: "Bellota";
+
+      .left_col {
+        .day_area {
+          margin-right: 5px;
+          font-weight: 700;
+          font-size: 40px;
+        }
+      }
+      .right_col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .month_area {
+          font-family: "Montserrat";
+          font-size: 14px;
+        }
+        .year_area {
+          line-height: 1;
+        }
+      }
+    }
+
+    .title {
+      font: italic 700 35px "Montserrat";
+      letter-spacing: -0.5px;
+    }
+  }
+}

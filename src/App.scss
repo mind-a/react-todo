@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-family:'Nanum Gothic';
+}
+
+.background {
+  position: fixed;
+  z-index: 999999;
+  bottom: 95%;
+  right: 2%;
+  button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+  }
+}
+
+input{
+  font-family:'Nanum Gothic';
+  text-align: center;
+  border: none;
+  
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 10px;
+
+}
+
+input:active,
+input:focus {
+    outline: none;
+}
